@@ -1,8 +1,7 @@
 // A) using var
 for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log('var ->', i), 10);
+  console.log("changed");
+  for (let o = 0; o < 5; o++) {
+    console.log("changed");
+  }
 }
-// prints:
-// var -> 3
-// var -> 3
-// var -> 3
